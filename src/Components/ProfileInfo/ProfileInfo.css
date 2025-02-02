@@ -1,0 +1,58 @@
+.profileInfo{width: 25% !important; padding: 0 !important;}
+.profileInfo .relative{background: #FFF; box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.05) !important; padding: 1.5px !important; border-radius: 10px; text-align: center; margin-bottom: 15px;}
+
+.profileInfo .coverImage{border-radius: 10px 10px 0px 0px; margin-bottom: -66px;}
+.profileInfo .coverImage img{width: 100%;}
+
+
+.profileInfo .infoBox{margin-bottom: 35px !important;}
+.profileInfo h3{font-size: 18px; color: #333333; font-family: 'Neue-Medium'; text-transform: capitalize; }
+.profileInfo span{font-size: 14px; color: #333333 !important; font-family: 'NeueHaasDisplayRoman'; text-transform: capitalize;}
+.profileInfo .location span{font-size: 12px; color: #585D6E; font-family: 'NeueHaasDisplayRoman'; text-transform: capitalize;}
+
+
+.profileInfo .profileStats{background: #FFF; box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.05) !important; padding: 1.5px !important; border-radius: 10px; text-align: center; margin-bottom: 15px;}
+.profileInfo .profileStats .statsBox{display: flex ; justify-content: space-between; align-items: center; border-bottom: 1px solid #E9ECEF; padding: 10px 0px;}
+.profileInfo .profileStats .statsBox span{font-size: 14px; color: #333333 !important; font-family: 'NeueHaasDisplayRoman'; text-transform: capitalize;}
+.profileInfo .profileStats .statsBox h4{ margin-top: 0; font-size: 16px; color: #0154AA; font-family: 'NeueHaasDisplayRoman';}
+
+.profileInfo  .profileCalendar .cursor-pointer{display: flex ; justify-content: space-between; align-items: center;}
+.profileInfo  .profileCalendar .cursor-pointer h4{ font-size: 16px; color: #333333; font-family: 'Neue-Medium'; margin-bottom: 0;}
+.profileInfo  .profileCalendar .cursor-pointer span{font-size: 14px; color: #737A91 !important; font-family: 'NeueHaasDisplayRoman'; text-transform: capitalize}
+.profileInfo  .profileCalendar .anticon svg{color: #333333;}
+
+
+@media (max-width: 1024px) {
+.profileInfo {width: 30% !important;}
+.profileInfo .coverImage {margin-bottom: -35px;}
+.profileInfo .ant-avatar{width: 90px !important; height: 98px !important;}
+.profileInfo h3 {font-size: 16px;}
+.profileInfo span {font-size: 13px;}
+.jobsBoard {width: 70%; }
+.searchBox {height: 73px;}
+.searchBox input {width: 30% !important; height: 73px !important;}
+.searchBox button {width: 119px !important;}
+}
+
+@media (max-width: 991px) {
+.featuredJobs .jobWrapper {gap: 15px 7px !important;}
+}
+
+@media (max-width: 768px) {
+.homePage .col-md-12 { flex-wrap: wrap; }
+.profileInfo {width: 50% !important; }
+.jobsBoard { width: 100% !important; }
+}
+
+@media (max-width: 767px) {
+.profileInfo {width: 100% !important; }
+.searchBox { height: 100% !important; display: flex; justify-content: flex-start; align-content: center; flex-wrap: wrap; }
+.searchBox input{width: 100% !important;}
+.searchBox .ant-select{width: 46% !important;}
+.searchBox button { width: 100% !important; margin-top: 15px !important;}
+
+.tags ul {display: block !important;}
+.tags ul li {margin-bottom: 15px;}
+
+.featuredJobs .heading {align-items: flex-start; gap: 7px; flex-direction: column; }
+}

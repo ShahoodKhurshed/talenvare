@@ -1,0 +1,21 @@
+.promoted{margin-bottom: 5px;}
+.promoted span{font-size: 10px; color: #333333 !important; font-family: 'Neue-Medium'; text-transform: capitalize;}
+
+.jobName{display: flex ; justify-content: flex-start; align-items: flex-start; gap: 10px;}
+
+.jobName .left .ant-avatar{border-radius: 8px !important;}
+
+.jobName .right h5{ font-size: 14px; color: #333333 !important; text-transform: capitalize; font-family: 'NeueHaasDisplayRoman';}
+.jobName .right span{font-size: 12px; color: #333333; text-transform: capitalize; font-family: 'NeueHaasDisplayRoman';}
+
+.location span{font-size: 12px; color: #585D6E !important; font-family: 'NeueHaasDisplayRoman'; margin-left: 5px;}
+
+.applicant span.ant-typography{font-size: 12px; color: #585D6E !important; font-family: 'NeueHaasDisplayRoman'; margin-left: 5px;}
+
+.ButtonBox{display: flex ; justify-content: flex-start; align-items: center; gap: 13px; margin-top: 13px;}
+.ButtonBox button{width: 115px; height: 34px; background-color: #0154AA; border-color: #0154AA; border-radius: 6px; font-size: 12px; color: #fff; font-family: 'NeueHaasDisplayRoman';}
+.ButtonBox svg{color: #AAAAAA; width: 14px; height: 20px;}
+
+@media (max-width: 767px) {
+.ant-card{width: 100%;}
+}

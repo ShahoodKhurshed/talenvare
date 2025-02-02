@@ -1,0 +1,73 @@
+header{background-color: #fff; padding: 15px 0px; margin-bottom: 32px;}
+header .col-md-12{display: flex; justify-content: space-between; align-items: center; gap: 60px;}
+header .left{width: 66%; gap: 11px;}
+header .right{width: 34%; justify-content: space-between; gap: 10px;}
+
+
+header .headMenu button{padding: 4px 11px !important;}
+header .headMenu span{font-size: 16px; color: #737A91; font-family: 'Neue-Medium'; text-transform: capitalize;}
+header .headMenu .findjob span{color: #0154AA;}
+
+header .ant-input-affix-wrapper{background-color: #F6F9FF; border-radius: 8px; border: none; width: 261px; height: 39px; color: #737A91;}
+header .ant-input-affix-wrapper span.ant-input-prefix{margin-inline-end: 14px !important;}
+header .ant-input-affix-wrapper input{color: #737A91 !important; font-size: 14px !important; font-family: 'NeueHaasDisplayRoman';}
+header .ant-input-affix-wrapper input::placeholder{ color: #737A91 !important; font-size: 14px !important; font-family: 'NeueHaasDisplayRoman'; text-transform: capitalize;}
+
+header button.resumeButton{background-color: #0154AA; border: 1px solid #0154AA; border-radius: 8px; width: 147px; height: 39px;}
+header button.resumeButton span{font-size: 16px; color: #fff; text-transform: capitalize; font-family: 'NeueHaasDisplayRoman'; padding: 0 5px;}
+header button.resumeButton:hover{background-color: #0154AA !important; border: 1px solid #0154AA !important;}
+
+
+
+.hiddenOnMobile {
+    display: block;
+  }
+  .visibleOnMobile {
+    display: none;
+  }
+
+@media (max-width: 1680px) {
+header .col-md-12 {gap: 50px;}
+header .headMenu button { padding: 4px 10px !important; }
+header .headMenu span { font-size: 13px;}
+
+header .right { width: 36%;}
+header button.resumeButton { width: 140px; height: 37px; }
+header button.resumeButton span { font-size: 15px;}
+}
+
+@media (max-width: 1366px) {
+header .col-md-12 { gap: 35px; }
+header .left { width: 70%;}
+header .right { width: 33%; }
+header button.resumeButton { width: 130px; height: 36px; }
+header button.resumeButton span {font-size: 13px; }
+header .right .ant-avatar{width: 39px; height: 32px;}
+}
+
+@media (max-width: 1280px) {
+header .col-md-12 { gap: 25px; }
+header .headMenu button { padding: 4px 8px !important; }
+
+header .ant-input-affix-wrapper {width: 220px;}
+}
+
+@media (max-width: 1024px) {
+header { padding: 13px 0px; margin-bottom: 30px; }
+header .left {width: 35%;}
+header .right {width: 60%;}
+header button.resumeButton {width: 140px; height: 37px; }
+header button.resumeButton span {font-size: 15px;}
+header .ant-avatar{width: 36px; height: 36px;}
+.hiddenOnMobile { display: none; }
+.visibleOnMobile { display: block; }
+}
+
+@media (max-width: 767px) {
+header .col-md-12 {gap: 25px; flex-wrap: wrap; }
+header .left { width: 100% !important; justify-content: space-between;}
+
+header .right { width: 100%; flex-wrap: wrap; }
+header .ant-input-affix-wrapper {width: 100%; margin-bottom: 15px; }
+}
+
